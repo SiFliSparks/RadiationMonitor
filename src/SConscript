@@ -1,0 +1,22 @@
+from building import *
+import rtconfig
+import os
+
+src = []
+inc = []
+cwd = GetCurrentDir() # get current dir path
+
+src+=Glob('*.c')
+inc+= [cwd]
+
+#Return('src')
+
+# add lvgl demos
+src.extend(SConscript(os.path.join(cwd, 'lv_demos/SConscript'), variant_dir="lv_demos", duplicate=0))
+# add BT
+src.extend(SConscript(os.path.join(cwd, 'BT/SConscript'), variant_dir="BT", duplicate=0))
+# add generated
+src.extend(SConscript(os.path.join(cwd, 'generated/SConscript'), variant_dir="generated", duplicate=0))
+
+group = DefineGroup('LVGL_DEMO', src, depend = ['PKG_USING_LITTLEVGL2RTT'], CPPPATH = inc)
+Return('group')

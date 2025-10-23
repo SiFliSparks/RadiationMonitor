@@ -1,0 +1,18 @@
+from building import *
+import rtconfig
+import os
+
+# Get current directory
+cwd = GetCurrentDir()
+
+# Add source files in this directory
+src = Glob('*.c')
+
+# Add current directory to include paths
+CPPPATH = [cwd]
+
+# Create a simple group without unnecessary dependencies
+# This matches the structure of the main SConscript
+group = DefineGroup('BT', src, depend=[], CPPPATH=CPPPATH)
+
+Return('group')
