@@ -81,7 +81,7 @@ Radiationdetector/
 - **KEY2**: Start/stop scanning toggle
 
 ## Compilation and Running
-![image](img.jpg)
+![image](assets/img.jpg)
 
 ### Environment Requirements
 

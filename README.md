@@ -83,7 +83,7 @@ Radiationdetector/
 - **KEY2**：开始/停止扫描切换
 
 ## 运行效果
-![image](img.jpg)
+![image](assets/img.jpg)
 
 ### 环境要求
 
