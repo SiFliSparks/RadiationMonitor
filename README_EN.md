@@ -80,12 +80,8 @@ Radiationdetector/
 - **KEY1**: Historical data browsing (forward page turning)
 - **KEY2**: Start/stop scanning toggle
 
-
-## Running Effect
-
-![image](img.jpg)
-
 ## Compilation and Running
+![image](img.jpg)
 
 ### Environment Requirements
 
