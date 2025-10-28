@@ -97,6 +97,6 @@ Radiationdetector/
 
 ## Technical Support
 
-If you have any technical questions, please submit an [issue](https://github.com/OpenSiFli/SiFli-SDK/issues) on GitHub
+If you have any technical questions, please submit an [issue](https://github.com/SiFliSparks/RadiationMonitor/issues) 
             
       
