@@ -1,3 +1,3 @@
-RT_USING_MTD_NOR (defined at D:\OpenSiFli\sifli-sdk//rtos/rtthread/components/drivers/Kconfig:122) was assigned the value 'y' but got the value 'n'. Check these unsatisfied dependencies: BSP_USING_RTTHREAD (=n). 
-BSP_ENABLE_MPI1 (defined at D:\OpenSiFli\sifli-sdk//customer/boards/Kconfig_drv:683) was assigned the value 'y' but got the value 'n'. Check these unsatisfied dependencies: BSP_USING_MPI (=n). 
-BSP_ENABLE_MPI2 (defined at D:\OpenSiFli\sifli-sdk//customer/boards/Kconfig_drv:774) was assigned the value 'y' but got the value 'n'. Check these unsatisfied dependencies: BSP_USING_MPI (=n). 
+RT_USING_MTD_NOR (defined at C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1//rtos/rtthread/components/drivers/Kconfig:122) was assigned the value 'y' but got the value 'n'. Check these unsatisfied dependencies: BSP_USING_RTTHREAD (=n). 
+BSP_ENABLE_MPI1 (defined at C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1//customer/boards/Kconfig_drv:660) was assigned the value 'y' but got the value 'n'. Check these unsatisfied dependencies: BSP_USING_MPI (=n). 
+BSP_ENABLE_MPI2 (defined at C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1//customer/boards/Kconfig_drv:751) was assigned the value 'y' but got the value 'n'. Check these unsatisfied dependencies: BSP_USING_MPI (=n). 

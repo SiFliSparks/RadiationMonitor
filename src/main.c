@@ -79,7 +79,7 @@ int main(void)
 {
     KEY_init();
     gui_thread();
-    bt_rssi_rthread(500);//set bt_rssi_rthread sampling time to 500ms
+    bt_rssi_rthread();//set bt_rssi_rthread sampling time to 500ms
     while (1)
     {
         //rt_kprintf("main thread is running\n");

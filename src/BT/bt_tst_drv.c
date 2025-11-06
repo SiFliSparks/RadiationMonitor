@@ -58,16 +58,16 @@ void bt_init_clk(void)
 {
     hwp_lpsys_aon->ACR |= LPSYS_AON_ACR_HXT48_REQ;
     hwp_lpsys_rcc->CSR = 1 << LPSYS_RCC_CSR_SEL_SYS_Pos; //select hxt48
-    hwp_lpsys_rcc->CFGR = (0x1 << LPSYS_RCC_CFGR_HDIV1_Pos)|
-                          (0x2 << LPSYS_RCC_CFGR_PDIV1_Pos)|
+    hwp_lpsys_rcc->CFGR = (0x2 << LPSYS_RCC_CFGR_HDIV1_Pos)|
+                          (0x0 << LPSYS_RCC_CFGR_PDIV1_Pos)|
                           (0x3 << LPSYS_RCC_CFGR_PDIV2_Pos)|
-                          (0x6 << LPSYS_RCC_CFGR_MACDIV_Pos)|
+                          (0x3 << LPSYS_RCC_CFGR_MACDIV_Pos)|
                           (0x8 << LPSYS_RCC_CFGR_MACFREQ_Pos);
-    hwp_bt_mac->CLKNCNTCORR = 0;
-    hwp_bt_mac->FINECNTCORR = 624;
-    hwp_bt_mac->DEEPSLCNTL |= BT_MAC_DEEPSLCNTL_DEEP_SLEEP_CORR_EN;
+    //hwp_bt_mac->CLKNCNTCORR = 0;
+    //hwp_bt_mac->FINECNTCORR = 624;
+    //hwp_bt_mac->DEEPSLCNTL |= BT_MAC_DEEPSLCNTL_DEEP_SLEEP_CORR_EN;
 #ifdef __LCPU
-    hwp_pmuc->CR |= PMUC_CR_SEL_LPCLK; //select lxt32
+    //hwp_pmuc->CR |= PMUC_CR_SEL_LPCLK; //select lxt32
 #endif
 }
 
@@ -81,13 +81,13 @@ void bt_init_phy(void)
     //hwp_bt_phy->TX_GAUSSFLT_CFG = 0x002000a1;
     //enable q path
     hwp_bt_phy->RX_CTRL1 |= BT_PHY_RX_CTRL1_ADC_Q_EN_1;
-    hwp_bt_phy->RX_CTRL2 |= BT_PHY_RX_CTRL2_ADC_Q_EN_2;
-    hwp_bt_phy->RX_CTRL2 |= BT_PHY_RX_CTRL2_ADC_Q_EN_C;
+    //hwp_bt_phy->RX_CTRL2 |= BT_PHY_RX_CTRL2_ADC_Q_EN_2;
+    //hwp_bt_phy->RX_CTRL2 |= BT_PHY_RX_CTRL2_ADC_Q_EN_C;
     hwp_bt_phy->RX_CTRL2 |= BT_PHY_RX_CTRL2_ADC_Q_EN_BR;
     hwp_bt_phy->RX_CTRL2 |= BT_PHY_RX_CTRL2_ADC_Q_EN_FRC_EN;
     //zero if 
-    hwp_bt_phy->TX_IF_MOD_CFG  &= ~BT_PHY_TX_IF_MOD_CFG_TX_IF_PHASE_BLE_Msk ;
-    hwp_bt_phy->MIXER_CFG1 = 0;
+    //hwp_bt_phy->TX_IF_MOD_CFG  &= ~BT_PHY_TX_IF_MOD_CFG_TX_IF_PHASE_BLE_Msk ;
+    //hwp_bt_phy->MIXER_CFG1 = 0;
 
     //hwp_bt_phy->EDRDEMOD_CFG1 = (0x40 << BT_PHY_EDRDEMOD_CFG1_EDR2_MU_DC_Pos) | 0x100;
     //hwp_bt_phy->EDRDEMOD_CFG2 = (0x40 << BT_PHY_EDRDEMOD_CFG2_EDR3_MU_DC_Pos) | 0x140;
@@ -103,8 +103,8 @@ void bt_init_phy(void)
 
 void bt_init_rf(void)
 {
-    bt_init_rf_table();
-    //bt_rf_rfc_init();
+    bt_init_rf_table();//OK
+    //bt_rfc_init();
 }
 
 void bt_init_rf_table(void)
@@ -148,10 +148,10 @@ void bt_init_em_extab(void)
 
 void bt_init(void)
 {
-    bt_init_clk();
-    //bt_init_rf();
-    //bt_init_phy();
-    bt_init_em_extab();
+    bt_init_clk();//OK
+    bt_init_rf();//ok
+    bt_init_phy();//ok
+    bt_init_em_extab();//ok
     mySeed = 0;
 
     hwp_bt_mac->ETPTR = BT_EM_OFFSET_ADDR >> 2;

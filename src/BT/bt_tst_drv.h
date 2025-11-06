@@ -15,28 +15,25 @@
 
 //add ble define
 #define BLE_EM_OFFSET_ADDR       0x0000
-#define BLE_EM_BASE_ADDR         BT_EM_BASE_ADDR
+#define BLE_EM_BASE_ADDR         (0x20408000+BLE_EM_OFFSET_ADDR)
 #define BLE_EM_FREQTABLE         0x100
 
 
 #define BT_EM_OFFSET_ADDR       0x0000
 #define BT_EM_BASE_ADDR         (0x20408000+BT_EM_OFFSET_ADDR)
 #define BT_EM_FREQTABLE         0x100
-
-#define BT_EM_CS0               0x2E14
-#define BT_EM_RXDESCRIPTOR0     0x30b4
-#define BT_EM_RXDESCRIPTOR1     0x30c4
-#define BT_EM_RXDATABUFFER0     0x3468 //+ 5
-#define BT_EM_RXDATABUFFER1     0x386c
-#define BT_EM_TXDESCRIPTOR0     0x30d4
-#define BT_BER_DEBUG_EN    0
-
 #define BT_EM_SPI               0x128  
+#define BT_EM_CS0               0x2200
+#define BT_EM_TXDESCRIPTOR0     0x22a0
 #define BT_EM_TXDESCRIPTOR1     0x22b0
+#define BT_EM_RXDESCRIPTOR0     0x22c0
+#define BT_EM_RXDESCRIPTOR1     0x22e0
 #define BT_EM_RXDESCRIPTOR2     0x2300
 #define BT_EM_RXDESCRIPTOR3     0x2320
 #define BT_EM_TXDATABUFFER0     0x2380
 #define BT_EM_TXDATABUFFER1     0x2780
+#define BT_EM_RXDATABUFFER0     0x2b80
+#define BT_EM_RXDATABUFFER1     0x2f80
 #define BT_EM_RXDATABUFFER2     0x3380
 #define BT_EM_RXDATABUFFER3     0x3780
 #define BT_EM_TARGETBUFFER0     0x3b00

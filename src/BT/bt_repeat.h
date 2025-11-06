@@ -4,7 +4,7 @@
 extern int rssi_res[79];
 
 void bt_repeat_rx_rssi_ch0_79_auto(void);
-void bt_rssi_rthread(int sampling_time);
+void bt_rssi_rthread(void);
 
 // time window statistics function
 void analyze_rssi_time_window(void);
