@@ -37,14 +37,14 @@ void setup_scr_screen(lv_ui *ui)
     lv_obj_add_event_cb(ui->screen_chart_1, chart_bar_draw_event_cb, LV_EVENT_DRAW_PART_BEGIN, NULL);// add draw event callback
     lv_obj_add_event_cb(ui->screen_chart_1, chart_axis_label_draw_event_cb, LV_EVENT_DRAW_PART_BEGIN, NULL);// add axis label draw event callback
     lv_chart_set_type(ui->screen_chart_1, LV_CHART_TYPE_BAR);
-    lv_chart_set_div_line_count(ui->screen_chart_1, 5, 9);
+    lv_chart_set_div_line_count(ui->screen_chart_1, 4, 9);
     // Number of bars
     lv_chart_set_point_count(ui->screen_chart_1, 79);
     // Set Y-axis range
 
-    lv_chart_set_range(ui->screen_chart_1, LV_CHART_AXIS_PRIMARY_Y, -127, -20);
+    lv_chart_set_range(ui->screen_chart_1, LV_CHART_AXIS_PRIMARY_Y, -110, -20);
     
-    lv_chart_set_axis_tick(ui->screen_chart_1, LV_CHART_AXIS_PRIMARY_Y, 5, 5, 5, 4, true, 40);
+    lv_chart_set_axis_tick(ui->screen_chart_1, LV_CHART_AXIS_PRIMARY_Y, 4, 4, 4, 3, true, 40);
     
     lv_chart_set_axis_tick(ui->screen_chart_1, LV_CHART_AXIS_PRIMARY_X, 10, 1, 79, 1, true, 20);
     
@@ -126,10 +126,9 @@ void setup_scr_screen(lv_ui *ui)
     
     /* Use LVGL v8 chart specific styles to set bar width and spacing */
     /* Chart width allows 10 pixels between bars, 79 bars total, adjust inner padding to set bar width */
-    lv_obj_set_style_pad_column(ui->screen_chart_1, 1, LV_PART_MAIN);
-
     lv_obj_set_style_pad_column(ui->screen_chart_1, 0, LV_PART_ITEMS);
-    
+    lv_obj_set_style_pad_column(ui->screen_chart_1, 1, LV_PART_MAIN);
+        
 
     lv_chart_set_zoom_x(ui->screen_chart_1, 256);
 
@@ -147,6 +146,7 @@ static void chart_bar_draw_event_cb(lv_event_t * e)
         if(!dsc || !dsc->rect_dsc) return;
         if(dsc->part != LV_PART_ITEMS || dsc->type != LV_CHART_DRAW_PART_BAR) return;
 
+        //sc->rect_dsc->outline_width = 2;
 
         lv_coord_t value = dsc->value;  // Value range: -127 to -20
         
@@ -205,6 +205,7 @@ static void chart_axis_label_draw_event_cb(lv_event_t * e)
     if(code == LV_EVENT_DRAW_PART_BEGIN) {
         lv_obj_draw_part_dsc_t * dsc = lv_event_get_draw_part_dsc(e);
         
+
         if(!dsc) return;
         
         /* Handle X-axis label drawing */

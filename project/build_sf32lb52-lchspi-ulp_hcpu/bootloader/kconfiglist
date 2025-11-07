@@ -4,6 +4,8 @@ C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\boards\Kconfig_drv
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\boards\Kconfig_lcd
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\boards\Kconfig_lcd_fpga
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\boards\Kconfig_soc
+C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\boards\sf32lb52-lchspi-ulp\Kconfig.board
+C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\boards\sf32lb52-lchspi-ulp\hcpu\Kconfig.board
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\boards\sf32lb52-lchspi-ulp_base\Kconfig.board
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\peripherals\Kconfig
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\customer\peripherals\audio\Kconfig
@@ -119,6 +121,4 @@ C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\rtos\rtthread\components\net\sal\Kconfig
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\rtos\rtthread\components\utilities\Kconfig
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\rtos\rtthread\libcpu\Kconfig
 C:\Users\xuzhi\sifli\SiFli-SDK\v2.4.1\rtos\rtthread\src\Kconfig
-D:\OpenSiFli\sifli-sdk\customer\boards\sf32lb52-lchspi-ulp\Kconfig.board
-D:\OpenSiFli\sifli-sdk\customer\boards\sf32lb52-lchspi-ulp\hcpu\Kconfig.board
 D:\github\RadiationMonitor\project\build_sf32lb52-lchspi-ulp_hcpu\bootloader\Kconfig

@@ -125,11 +125,10 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
 	uint8_t rssi=0;
 	j=0;
 
-    //outer loop
-	while(1){
+	while(1){//inner loop
        /*************************  scan1  ***********************************/
       //scan1
-      write_memory(0x400840AC, 0x00049000);
+      write_memory(0x400840AC, 0x0004A000);
 	  j=0;
 	  i=0;
 	  channel_index = 0;
@@ -204,7 +203,6 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
 	  dm_irq_clear(DM_IRQ_ALL);
       bt_irq_enable(BT_IRQ_ERROR | BT_IRQ_RX);
 
-      //inner loop
       while (1){
         while((hwp_bt_mac->ACTFIFOSTAT& BT_MAC_ACTFIFOSTAT_RXINTSTAT)==0);
         hwp_bt_mac->RWDMCNTL |= BT_MAC_RWDMCNTL_MASTER_SOFT_RST;
@@ -235,7 +233,7 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
         hwp_bt_mac->DMRADIOCNTL1 |= (channel_index << BT_MAC_DMRADIOCNTL1_CHANNEL_Pos);
 	  
         if (i & 0x1) {
-          //storage rssi
+          //save rssi
           rssi = read_memory(BT_EM_BASE_ADDR+BT_EM_RXDESCRIPTOR1+0x8) & 0xff;
           rssi_array1[j] = rssi;
 	      j=j+1;
@@ -246,7 +244,7 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
                                 );
         }
         else {
-          //storage rssi
+          //save rssi
 		  rssi = read_memory(BT_EM_BASE_ADDR+BT_EM_RXDESCRIPTOR0+0x8) & 0xff;
           rssi_array1[j] = rssi;
           j=j+1;
@@ -261,11 +259,11 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
         packet_cnt = packet_cnt + 1;
         i = i + 1;
 		if(channel_index == 79){
-          //storage rssi
+          //save rssi
           for(int i = 0;i<channel_index;i++){
             rssi_array1[i] = rssi_array1[i] - 256 -6;
           }
-		  break;//break inner while loop
+		  break;//break inner loop
 	    }
       
         bt_start_act(1);
@@ -350,9 +348,8 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
 	  dm_irq_clear(DM_IRQ_ALL);
       bt_irq_enable(BT_IRQ_ERROR | BT_IRQ_RX);
 
-      //wait interrupt
-      //inner loop
       while (1){
+        
         while((hwp_bt_mac->ACTFIFOSTAT& BT_MAC_ACTFIFOSTAT_RXINTSTAT)==0);
         hwp_bt_mac->RWDMCNTL |= BT_MAC_RWDMCNTL_MASTER_SOFT_RST;
         clkncnt = bt_get_clkn();
@@ -382,7 +379,7 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
         hwp_bt_mac->DMRADIOCNTL1 |= (channel_index << BT_MAC_DMRADIOCNTL1_CHANNEL_Pos);
 	  
         if (i & 0x1) {
-          //storage rssi
+          //save rssi
           rssi = read_memory(BT_EM_BASE_ADDR+BT_EM_RXDESCRIPTOR1+0x8) & 0xff;
           rssi_array2[j] = rssi;
 	      j=j+1;
@@ -393,7 +390,7 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
                                 );
         }
         else {
-          //storage rssi
+          // save rssi
 		  rssi = read_memory(BT_EM_BASE_ADDR+BT_EM_RXDESCRIPTOR0+0x8) & 0xff;
           rssi_array2[j] = rssi;
           j=j+1;
@@ -408,21 +405,20 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
         packet_cnt = packet_cnt + 1;
         i = i + 1;
 		if(channel_index == 79){
-          //
+          //save rssi
           for(int i = 0;i<channel_index;i++){
             rssi_array2[i] = rssi_array2[i] - 256 -6;
           }
-		  break;//break inner while loop
+		  break;//break inner loop
 	    }
       
         bt_start_act(1);
       }
-      break;//break outer while loop
+      break;//break outer loop
     }
-
-      //combine rssi_array1 and rssi_array2
+    //deal rssi value
       for(int i = 0;i<channel_index;i++){
-        if(rssi_array1[i] > -54)
+        if(rssi_array1[i] > -59)
           rssi_array[i] = rssi_array1[i];
         else
           rssi_array[i] = rssi_array2[i];
@@ -430,13 +426,6 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
         rt_kprintf("channel = %d ,rssi =  %d\r\n",i+1,rssi_array[i]);
       }
       rt_kprintf("irq_cnt %d\r\n",irq_cnt);
-      //VOFA+ display data
-      // for(int i = 0;i<channel_index;i++){
-      //   if(i<78)
-      //     rt_kprintf("%d,",rssi_array[i]);
-      //   else
-      //     rt_kprintf("%d\n",rssi_array[i]);
-      // }
 
 }
 

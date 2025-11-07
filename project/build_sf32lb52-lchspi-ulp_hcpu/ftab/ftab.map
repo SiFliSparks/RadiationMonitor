@@ -393,8 +393,6 @@ LOAD C:/Users/xuzhi/.sifli/tools/arm-none-eabi-gcc/14.2.1/bin/../lib/gcc/arm-non
 LOAD C:/Users/xuzhi/.sifli/tools/arm-none-eabi-gcc/14.2.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard/crt0.o
 LOAD build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
 START GROUP
-END GROUP
-START GROUP
 LOAD C:/Users/xuzhi/.sifli/tools/arm-none-eabi-gcc/14.2.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libgcc.a
 LOAD C:/Users/xuzhi/.sifli/tools/arm-none-eabi-gcc/14.2.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libg_nano.a
 LOAD C:/Users/xuzhi/.sifli/tools/arm-none-eabi-gcc/14.2.1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v8-m.main+fp/hard\libc_nano.a
@@ -466,8 +464,8 @@ LOAD linker stubs
  .comment       0x00000000       0x45 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
                                  0x46 (size before relaxing)
 
-.debug_info     0x00000000      0x285
- .debug_info    0x00000000      0x285 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
+.debug_info     0x00000000      0x27e
+ .debug_info    0x00000000      0x27e build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
 
 .debug_abbrev   0x00000000      0x10c
  .debug_abbrev  0x00000000      0x10c build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
@@ -476,12 +474,12 @@ LOAD linker stubs
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
 
-.debug_line     0x00000000      0x143
- .debug_line    0x00000000      0x143 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
+.debug_line     0x00000000      0x152
+ .debug_line    0x00000000      0x152 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
 
-.debug_str      0x00000000      0x276
- .debug_str     0x00000000      0x276 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
-                                0x2d8 (size before relaxing)
+.debug_str      0x00000000      0x25e
+ .debug_str     0x00000000      0x25e build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
+                                0x2c0 (size before relaxing)
 
 Cross Reference Table
 

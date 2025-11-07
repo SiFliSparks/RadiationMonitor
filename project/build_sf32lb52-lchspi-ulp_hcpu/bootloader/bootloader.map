@@ -384,117 +384,6 @@ Discarded input sections
  .debug_frame   0x00000000       0xb4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .data          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .bss           0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.BSP_GetFlash1DIV
-                0x00000000        0xc build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.BSP_GetFlash2DIV
-                0x00000000        0xc build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.BSP_SetFlash1DIV
-                0x00000000        0xc build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.BSP_SetFlash2DIV
-                0x00000000        0xc build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.BSP_GetOtpBase
-                0x00000000        0x8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.HAL_PreInit
-                0x00000000      0x124 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.BSP_IO_Init
-                0x00000000       0x10 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text.SystemClock_Config
-                0x00000000        0x2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .data.mpi2_div
-                0x00000000        0x2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .data.mpi1_div
-                0x00000000        0x2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_info    0x00000000      0xf3b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_abbrev  0x00000000      0x36f build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_loc     0x00000000      0x12b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_aranges
-                0x00000000       0x58 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_ranges  0x00000000       0x60 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_line    0x00000000      0x5bf build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_str     0x00000000      0xe9b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_frame   0x00000000       0xac build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .ARM.attributes
-                0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .text          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .data          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .bss           0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .text.BSP_LCD_Reset
-                0x00000000        0xa build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .text.BSP_LCD_PowerDown
-                0x00000000       0xb0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .text.BSP_LCD_PowerUp
-                0x00000000       0x80 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .text.BSP_TP_PowerUp
-                0x00000000       0x14 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .text.BSP_TP_PowerDown
-                0x00000000       0x40 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .text.BSP_TP_Reset
-                0x00000000        0xa build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_info    0x00000000     0x1ebf build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_abbrev  0x00000000      0x159 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_loc     0x00000000       0x70 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_aranges
-                0x00000000       0x48 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_ranges  0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_line    0x00000000      0x314 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_str     0x00000000     0x29fd build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_frame   0x00000000       0xa4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .ARM.attributes
-                0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .text          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .data          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .bss           0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .text.BSP_PIN_Touch
-                0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .text.BSP_PIN_LCD
-                0x00000000       0x86 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .text.BSP_PIN_Init
-                0x00000000       0xf4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_info    0x00000000     0x2052 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_abbrev  0x00000000      0x194 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_aranges
-                0x00000000       0x30 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_ranges  0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_line    0x00000000      0x29b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_str     0x00000000     0x2ae8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_frame   0x00000000       0x6c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .ARM.attributes
-                0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .text          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .data          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .bss           0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text.BSP_GPIO_Set
-                0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text.BSP_PowerDownCustom
-                0x00000000        0x2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text.BSP_PowerUpCustom
-                0x00000000       0xe8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text.BSP_Power_Up
-                0x00000000        0x8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text.BSP_IO_Power_Down
-                0x00000000        0x8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text.BSP_SDIO_Power_Up
-                0x00000000        0x2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .text.BSP_SDIO_Power_Down
-                0x00000000        0x2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_info    0x00000000     0x1264 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_abbrev  0x00000000      0x2b5 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_loc     0x00000000      0x1fa build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_aranges
-                0x00000000       0x50 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_ranges  0x00000000       0x40 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_line    0x00000000      0x3e0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_str     0x00000000      0xfeb build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_frame   0x00000000       0xb4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .ARM.attributes
-                0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
  .text          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\bf0_pin_const.o
  .data          0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\bf0_pin_const.o
  .bss           0x00000000        0x0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\bf0_pin_const.o
@@ -5000,10 +4889,6 @@ LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb5
 LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
 LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
 LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
-LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
-LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
-LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\bf0_pin_const.o
 LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\Templates\system_bf0_ap.o
 LOAD build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
@@ -7415,7 +7300,6 @@ BSP_Flash_read_id                                 build_sf32lb52-lchspi-ulp_hcpu
 BSP_Flash_var_init                                build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
 BSP_GPIO_Set                                      build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
 BSP_GetFlash1DIV                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
@@ -7442,17 +7326,13 @@ BSP_Nor_read                                      build_sf32lb52-lchspi-ulp_hcpu
 BSP_Nor_write                                     build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
 BSP_PIN_Init                                      build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 BSP_PIN_LCD                                       build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
 BSP_PIN_Touch                                     build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
 BSP_PowerDownCustom                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 BSP_PowerUpCustom                                 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 BSP_Power_Up                                      build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 BSP_SDIO_Power_Down                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 BSP_SDIO_Power_Up                                 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
@@ -7462,7 +7342,6 @@ BSP_SetFlash1DIV                                  build_sf32lb52-lchspi-ulp_hcpu
 BSP_SetFlash2DIV                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
 BSP_System_Config                                 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 BSP_TP_PowerDown                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
 BSP_TP_PowerUp                                    build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
@@ -7730,9 +7609,6 @@ HAL_Delay_us                                      build_sf32lb52-lchspi-ulp_hcpu
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_nand_ops.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_nand_drv.o
@@ -7970,13 +7846,11 @@ HAL_GPIO_GetMode                                  build_sf32lb52-lchspi-ulp_hcpu
 HAL_GPIO_IRQHandler                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
 HAL_GPIO_Init                                     build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 HAL_GPIO_ReadPin                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
 HAL_GPIO_Restore                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
 HAL_GPIO_Save                                     build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
 HAL_GPIO_TogglePin                                build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
 HAL_GPIO_WritePin                                 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 HAL_GPT_Base_DeInit                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
 HAL_GPT_Base_GetState                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
@@ -8135,7 +8009,6 @@ HAL_HPAON_EnableWakeupSrc                         build_sf32lb52-lchspi-ulp_hcpu
 HAL_HPAON_EnableXT48                              build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
 HAL_HPAON_EnterDeepSleep                          build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
 HAL_HPAON_EnterLightSleep                         build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
@@ -8148,13 +8021,11 @@ HAL_HPAON_QueryWakeupPin                          build_sf32lb52-lchspi-ulp_hcpu
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
 HAL_HPAON_StartGTimer                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_HPAON_StopGTimer                              build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
 HAL_HPAON_WakeCore                                build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_HYPER_CFG_READ                                build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_psram.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board_psram.o
@@ -8183,7 +8054,6 @@ HAL_I2C_GetMode                                   build_sf32lb52-lchspi-ulp_hcpu
 HAL_I2C_GetState                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
 HAL_I2C_Init                                      build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 HAL_I2C_ListenCpltCallback                        build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
 HAL_I2C_MasterRxCpltCallback                      build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
 HAL_I2C_MasterTxCpltCallback                      build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
@@ -8197,11 +8067,9 @@ HAL_I2C_MemRxCpltCallback                         build_sf32lb52-lchspi-ulp_hcpu
 HAL_I2C_MemTxCpltCallback                         build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
 HAL_I2C_Mem_Read                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 HAL_I2C_Mem_Read_DMA                              build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
 HAL_I2C_Mem_Read_IT                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
 HAL_I2C_Mem_Write                                 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 HAL_I2C_Mem_Write_DMA                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
 HAL_I2C_Mem_Write_IT                              build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
@@ -8421,7 +8289,6 @@ HAL_MPU_Enable                                    build_sf32lb52-lchspi-ulp_hcpu
 HAL_MspDeInit                                     build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal.o
 HAL_MspInit                                       build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\bf0_ap_hal_msp.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\main.o
 HAL_MultiProcessor_Init                           build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
 HAL_NAND_AHB_CONTINUE                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_ex.o
@@ -8538,13 +8405,10 @@ HAL_PIN_Select                                    build_sf32lb52-lchspi-ulp_hcpu
 HAL_PIN_Set                                       build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pinmux.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board_psram.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board.o
 HAL_PIN_SetMode                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pinmux.o
 HAL_PIN_Set_Analog                                build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pinmux.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board_psram.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board.o
@@ -8580,15 +8444,12 @@ HAL_PMU_DisableXTAL32                             build_sf32lb52-lchspi-ulp_hcpu
 HAL_PMU_EnableAudio                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
 HAL_PMU_EnableDLL                                 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
 HAL_PMU_EnablePinWakeup                           build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
 HAL_PMU_EnableRC32K                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_PMU_EnableRtcWakeup                           build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
 HAL_PMU_EnableXTAL32                              build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_PMU_EnterHibernate                            build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
 HAL_PMU_EnterShutdown                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
@@ -8601,14 +8462,11 @@ HAL_PMU_Init                                      build_sf32lb52-lchspi-ulp_hcpu
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal.o
 HAL_PMU_LXTReady                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_PMU_LoadCalData                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
 HAL_PMU_LpCLockSelect                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_PMU_RC10Kconfig                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_PMU_RC32KReady                                build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
 HAL_PMU_Reboot                                    build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
@@ -8683,7 +8541,6 @@ HAL_RCC_EnableModule                              build_sf32lb52-lchspi-ulp_hcpu
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
 HAL_RCC_GetHCLKFreq                               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_psram.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
@@ -8700,11 +8557,9 @@ HAL_RCC_GetSysCLKFreq                             build_sf32lb52-lchspi-ulp_hcpu
 HAL_RCC_HCPU_ClockSelect                          build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board_psram.o
 HAL_RCC_HCPU_ConfigHCLK                           build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
 HAL_RCC_HCPU_ConfigHCLKByMode                     build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
@@ -8719,13 +8574,11 @@ HAL_RCC_HCPU_EnableDLL1                           build_sf32lb52-lchspi-ulp_hcpu
 HAL_RCC_HCPU_EnableDLL2                           build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
 HAL_RCC_HCPU_EnableDLL3                           build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
 HAL_RCC_HCPU_GetClockSrc                          build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_ex.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
 HAL_RCC_HCPU_GetCurrentDvfsMode                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
@@ -8760,7 +8613,6 @@ HAL_RCC_ResetModule                               build_sf32lb52-lchspi-ulp_hcpu
 HAL_RCC_Reset_and_Halt_LCPU                       build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_RCC_SetMacFreq                                build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
 HAL_RCC_SetModuleFreq                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
 HAL_RC_CAL_GetLPCycle                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
@@ -8770,10 +8622,8 @@ HAL_RC_CAL_SetParameter                           build_sf32lb52-lchspi-ulp_hcpu
 HAL_RC_CAL_get_average_cycle_on_48M               build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
 HAL_RC_CAL_get_reference_cycle_on_48M             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_RC_CAL_update_ave_cycle                       build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
 HAL_RC_CAL_update_reference_cycle_on_48M_ex       build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 HAL_RC_CALget_curr_cycle_on_48M                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
 HAL_RNG_DeInit                                    build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
@@ -9119,7 +8969,6 @@ SystemInit                                        build_sf32lb52-lchspi-ulp_hcpu
 SystemPowerOnModeGet                              build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\Templates\system_bf0_ap.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 SystemPowerOnModeInit                             build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\Templates\system_bf0_ap.o
 SystemVectorTableRemapping                        build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\Templates\system_bf0_ap.o
@@ -9594,7 +9443,6 @@ g_flash_write                                     build_sf32lb52-lchspi-ulp_hcpu
 g_hal_hpaon_lcpu_wakeup_ref_cnt                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
-                                                  build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
                                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
 g_pll_freq_type                                   build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
 g_pll_state                                       build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
