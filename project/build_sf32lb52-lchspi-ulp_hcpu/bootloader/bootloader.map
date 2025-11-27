@@ -210,7 +210,7 @@ Discarded input sections
                 0x00000000       0x20 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\bsp_common.o
  .debug_ranges  0x00000000       0x10 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\bsp_common.o
  .debug_line    0x00000000       0xc8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\bsp_common.o
- .debug_str     0x00000000      0x22a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\bsp_common.o
+ .debug_str     0x00000000      0x235 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\bsp_common.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\bsp_common.o
  .debug_frame   0x00000000       0x20 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\bsp_common.o
  .ARM.attributes
@@ -292,7 +292,7 @@ Discarded input sections
                 0x00000000      0x100 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
  .debug_ranges  0x00000000      0x120 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
  .debug_line    0x00000000      0xc7a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
- .debug_str     0x00000000     0x1a87 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
+ .debug_str     0x00000000     0x1a92 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
  .debug_frame   0x00000000      0x288 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\common\flash.o
  .ARM.attributes
@@ -330,7 +330,7 @@ Discarded input sections
                 0x00000000       0x48 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
  .debug_ranges  0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
  .debug_line    0x00000000      0x314 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
- .debug_str     0x00000000     0x29fd build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
+ .debug_str     0x00000000     0x2a08 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
  .debug_frame   0x00000000       0xa4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_lcd_tp.o
  .ARM.attributes
@@ -350,7 +350,7 @@ Discarded input sections
                 0x00000000       0x30 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
  .debug_ranges  0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
  .debug_line    0x00000000      0x29b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
- .debug_str     0x00000000     0x2ae8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
+ .debug_str     0x00000000     0x2af3 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
  .debug_frame   0x00000000       0x6c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_pinmux.o
  .ARM.attributes
@@ -379,7 +379,7 @@ Discarded input sections
                 0x00000000       0x50 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
  .debug_ranges  0x00000000       0x40 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
  .debug_line    0x00000000      0x3e0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
- .debug_str     0x00000000      0xfeb build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
+ .debug_str     0x00000000      0xff6 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
  .debug_frame   0x00000000       0xb4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_power.o
  .ARM.attributes
@@ -432,7 +432,7 @@ Discarded input sections
                 0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
  .debug_ranges  0x00000000       0x28 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
  .debug_line    0x00000000      0x3dd build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
- .debug_str     0x00000000      0xcb5 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
+ .debug_str     0x00000000      0xcc0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
  .debug_frame   0x00000000       0x74 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\lcpu_config_type.o
  .ARM.attributes
@@ -541,7 +541,7 @@ Discarded input sections
                 0x00000000      0x108 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_adc.o
  .debug_ranges  0x00000000      0x138 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_adc.o
  .debug_line    0x00000000      0xd3f build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_adc.o
- .debug_str     0x00000000      0xd5d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_adc.o
+ .debug_str     0x00000000      0xd68 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_adc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_adc.o
  .debug_frame   0x00000000      0x28c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_adc.o
  .ARM.attributes
@@ -603,7 +603,7 @@ Discarded input sections
                 0x00000000       0x90 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes_ns.o
  .debug_ranges  0x00000000       0xe0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes_ns.o
  .debug_line    0x00000000      0x9a3 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes_ns.o
- .debug_str     0x00000000     0x12c8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes_ns.o
+ .debug_str     0x00000000     0x12d3 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes_ns.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes_ns.o
  .debug_frame   0x00000000      0x154 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes_ns.o
  .ARM.attributes
@@ -722,7 +722,7 @@ Discarded input sections
                 0x00000000      0x150 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
  .debug_ranges  0x00000000      0x170 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
  .debug_line    0x00000000     0x1901 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
- .debug_str     0x00000000     0x1896 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
+ .debug_str     0x00000000     0x18a1 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
  .debug_frame   0x00000000      0x37c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audcodec_m.o
  .ARM.attributes
@@ -793,7 +793,7 @@ Discarded input sections
                 0x00000000       0xf8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audprc.o
  .debug_ranges  0x00000000      0x160 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audprc.o
  .debug_line    0x00000000     0x1021 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audprc.o
- .debug_str     0x00000000     0x1078 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audprc.o
+ .debug_str     0x00000000     0x1083 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audprc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audprc.o
  .debug_frame   0x00000000      0x28c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_audprc.o
  .ARM.attributes
@@ -806,7 +806,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_bleaon.o
  .debug_line    0x00000000       0x63 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_bleaon.o
- .debug_str     0x00000000      0x20b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_bleaon.o
+ .debug_str     0x00000000      0x216 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_bleaon.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_bleaon.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_bleaon.o
@@ -818,7 +818,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_busmon.o
  .debug_line    0x00000000       0x63 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_busmon.o
- .debug_str     0x00000000      0x20b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_busmon.o
+ .debug_str     0x00000000      0x216 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_busmon.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_busmon.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_busmon.o
@@ -887,7 +887,7 @@ Discarded input sections
                 0x00000000       0x60 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_crc.o
  .debug_ranges  0x00000000       0xa0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_crc.o
  .debug_line    0x00000000      0x597 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_crc.o
- .debug_str     0x00000000      0xaf4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_crc.o
+ .debug_str     0x00000000      0xaff build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_crc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_crc.o
  .debug_frame   0x00000000       0xe0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_crc.o
  .ARM.attributes
@@ -953,7 +953,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dsi.o
  .debug_line    0x00000000       0x60 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dsi.o
- .debug_str     0x00000000      0x208 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dsi.o
+ .debug_str     0x00000000      0x213 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dsi.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dsi.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dsi.o
@@ -1160,7 +1160,7 @@ Discarded input sections
                 0x00000000      0x2c0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
  .debug_ranges  0x00000000      0x7f8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
  .debug_line    0x00000000     0x5971 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
- .debug_str     0x00000000     0x3782 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
+ .debug_str     0x00000000     0x378d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
  .debug_frame   0x00000000      0xa68 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_epic.o
  .ARM.attributes
@@ -1240,7 +1240,7 @@ Discarded input sections
                 0x00000000       0xb0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
  .debug_ranges  0x00000000       0xc0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
  .debug_line    0x00000000      0xeb0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
- .debug_str     0x00000000     0x15d0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
+ .debug_str     0x00000000     0x15db build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
  .debug_frame   0x00000000      0x1d4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ezip.o
  .ARM.attributes
@@ -1253,7 +1253,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_facc.o
  .debug_line    0x00000000       0x61 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_facc.o
- .debug_str     0x00000000      0x209 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_facc.o
+ .debug_str     0x00000000      0x214 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_facc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_facc.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_facc.o
@@ -1265,7 +1265,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_fft.o
  .debug_line    0x00000000       0x60 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_fft.o
- .debug_str     0x00000000      0x208 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_fft.o
+ .debug_str     0x00000000      0x213 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_fft.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_fft.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_fft.o
@@ -1307,7 +1307,7 @@ Discarded input sections
                 0x00000000       0x88 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
  .debug_ranges  0x00000000       0x78 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
  .debug_line    0x00000000      0xbc3 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
- .debug_str     0x00000000      0x71e build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
+ .debug_str     0x00000000      0x729 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
  .debug_frame   0x00000000      0x190 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_gpio.o
  .ARM.attributes
@@ -1381,7 +1381,7 @@ Discarded input sections
                 0x00000000       0xf0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hcd.o
  .debug_ranges  0x00000000      0x198 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hcd.o
  .debug_line    0x00000000      0xe77 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hcd.o
- .debug_str     0x00000000     0x14bb build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hcd.o
+ .debug_str     0x00000000     0x14c6 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hcd.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hcd.o
  .debug_frame   0x00000000      0x240 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hcd.o
  .ARM.attributes
@@ -1548,7 +1548,7 @@ Discarded input sections
                 0x00000000      0x190 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
  .debug_ranges  0x00000000      0x338 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
  .debug_line    0x00000000     0x1f90 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
- .debug_str     0x00000000     0x194d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
+ .debug_str     0x00000000     0x1958 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
  .debug_frame   0x00000000      0x54c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2c.o
  .ARM.attributes
@@ -1631,7 +1631,7 @@ Discarded input sections
                 0x00000000      0x128 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2s.o
  .debug_ranges  0x00000000      0x188 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2s.o
  .debug_line    0x00000000     0x10f7 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2s.o
- .debug_str     0x00000000      0xed0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2s.o
+ .debug_str     0x00000000      0xedb build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2s.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2s.o
  .debug_frame   0x00000000      0x2d8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_i2s.o
  .ARM.attributes
@@ -1776,7 +1776,7 @@ Discarded input sections
                 0x00000000      0x218 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
  .debug_ranges  0x00000000     0x13b8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
  .debug_line    0x00000000     0x4ffe build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
- .debug_str     0x00000000     0x39fe build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
+ .debug_str     0x00000000     0x3a09 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
  .debug_frame   0x00000000      0x650 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcdc.o
  .ARM.attributes
@@ -1813,7 +1813,7 @@ Discarded input sections
                 0x00000000       0x68 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
  .debug_ranges  0x00000000       0x70 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
  .debug_line    0x00000000      0x724 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
- .debug_str     0x00000000      0xe91 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
+ .debug_str     0x00000000      0xe9c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
  .debug_frame   0x00000000       0xec build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lcpu_config.o
  .ARM.attributes
@@ -1858,7 +1858,7 @@ Discarded input sections
                 0x00000000       0x90 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpaon.o
  .debug_ranges  0x00000000       0x80 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpaon.o
  .debug_line    0x00000000      0x595 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpaon.o
- .debug_str     0x00000000      0x8d7 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpaon.o
+ .debug_str     0x00000000      0x8e2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpaon.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpaon.o
  .debug_frame   0x00000000      0x10c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpaon.o
  .ARM.attributes
@@ -1871,7 +1871,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpcomp.o
  .debug_line    0x00000000       0x63 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpcomp.o
- .debug_str     0x00000000      0x210 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpcomp.o
+ .debug_str     0x00000000      0x21b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpcomp.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpcomp.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lpcomp.o
@@ -1967,7 +1967,7 @@ Discarded input sections
                 0x00000000      0x160 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lptim.o
  .debug_ranges  0x00000000      0x150 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lptim.o
  .debug_line    0x00000000     0x10a4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lptim.o
- .debug_str     0x00000000      0x8cf build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lptim.o
+ .debug_str     0x00000000      0x8da build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lptim.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lptim.o
  .debug_frame   0x00000000      0x320 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lptim.o
  .ARM.attributes
@@ -2021,7 +2021,7 @@ Discarded input sections
                 0x00000000       0x70 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
  .debug_ranges  0x00000000       0xc8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
  .debug_line    0x00000000      0xc57 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
- .debug_str     0x00000000     0x1c75 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
+ .debug_str     0x00000000     0x1c80 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
  .debug_frame   0x00000000      0x104 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_lrc_cal.o
  .ARM.attributes
@@ -2056,7 +2056,7 @@ Discarded input sections
                 0x00000000       0x68 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mailbox.o
  .debug_ranges  0x00000000       0x58 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mailbox.o
  .debug_line    0x00000000      0x487 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mailbox.o
- .debug_str     0x00000000      0x604 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mailbox.o
+ .debug_str     0x00000000      0x60f build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mailbox.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mailbox.o
  .debug_frame   0x00000000       0xc8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mailbox.o
  .ARM.attributes
@@ -2240,7 +2240,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_nn_acc.o
  .debug_line    0x00000000       0x63 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_nn_acc.o
- .debug_str     0x00000000      0x210 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_nn_acc.o
+ .debug_str     0x00000000      0x21b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_nn_acc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_nn_acc.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_nn_acc.o
@@ -2264,7 +2264,7 @@ Discarded input sections
                 0x00000000       0x40 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_patch.o
  .debug_ranges  0x00000000       0x88 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_patch.o
  .debug_line    0x00000000      0x3a5 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_patch.o
- .debug_str     0x00000000      0x34e build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_patch.o
+ .debug_str     0x00000000      0x359 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_patch.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_patch.o
  .debug_frame   0x00000000       0x9c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_patch.o
  .ARM.attributes
@@ -2361,7 +2361,7 @@ Discarded input sections
                 0x00000000      0x120 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pcd.o
  .debug_ranges  0x00000000      0x390 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pcd.o
  .debug_line    0x00000000     0x1951 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pcd.o
- .debug_str     0x00000000     0x1639 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pcd.o
+ .debug_str     0x00000000     0x1644 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pcd.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pcd.o
  .debug_frame   0x00000000      0x2e4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pcd.o
  .ARM.attributes
@@ -2410,7 +2410,7 @@ Discarded input sections
                 0x00000000       0xa0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pdm.o
  .debug_ranges  0x00000000       0x90 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pdm.o
  .debug_line    0x00000000      0xa48 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pdm.o
- .debug_str     0x00000000     0x10e9 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pdm.o
+ .debug_str     0x00000000     0x10f4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pdm.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pdm.o
  .debug_frame   0x00000000      0x178 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pdm.o
  .ARM.attributes
@@ -2535,7 +2535,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_psram.o
  .debug_line    0x00000000       0x62 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_psram.o
- .debug_str     0x00000000      0x20a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_psram.o
+ .debug_str     0x00000000      0x215 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_psram.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_psram.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_psram.o
@@ -2555,7 +2555,7 @@ Discarded input sections
                 0x00000000       0x30 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ptc.o
  .debug_ranges  0x00000000       0x40 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ptc.o
  .debug_line    0x00000000      0x2ee build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ptc.o
- .debug_str     0x00000000      0x488 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ptc.o
+ .debug_str     0x00000000      0x493 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ptc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ptc.o
  .debug_frame   0x00000000       0x4c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ptc.o
  .ARM.attributes
@@ -2649,7 +2649,7 @@ Discarded input sections
                 0x00000000       0x78 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
  .debug_ranges  0x00000000       0x68 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
  .debug_line    0x00000000      0x553 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
- .debug_str     0x00000000      0x581 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
+ .debug_str     0x00000000      0x58c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
  .debug_frame   0x00000000       0xf8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rng.o
  .ARM.attributes
@@ -2734,7 +2734,7 @@ Discarded input sections
                 0x00000000      0x130 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
  .debug_ranges  0x00000000      0x180 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
  .debug_line    0x00000000     0x111a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
- .debug_str     0x00000000     0x10d4 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
+ .debug_str     0x00000000     0x10df build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
  .debug_frame   0x00000000      0x334 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rtc.o
  .ARM.attributes
@@ -2903,7 +2903,7 @@ Discarded input sections
                 0x00000000      0x230 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sd_ex.o
  .debug_ranges  0x00000000      0x440 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sd_ex.o
  .debug_line    0x00000000     0x23dc build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sd_ex.o
- .debug_str     0x00000000     0x154d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sd_ex.o
+ .debug_str     0x00000000     0x1558 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sd_ex.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sd_ex.o
  .debug_frame   0x00000000      0x6f0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sd_ex.o
  .ARM.attributes
@@ -2916,7 +2916,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdadc.o
  .debug_line    0x00000000       0x62 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdadc.o
- .debug_str     0x00000000      0x20a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdadc.o
+ .debug_str     0x00000000      0x215 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdadc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdadc.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdadc.o
@@ -3006,7 +3006,7 @@ Discarded input sections
                 0x00000000      0x148 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdhci.o
  .debug_ranges  0x00000000      0x330 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdhci.o
  .debug_line    0x00000000      0xd23 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdhci.o
- .debug_str     0x00000000      0x84e build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdhci.o
+ .debug_str     0x00000000      0x859 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdhci.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdhci.o
  .debug_frame   0x00000000      0x2ec build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdhci.o
  .ARM.attributes
@@ -3081,7 +3081,7 @@ Discarded input sections
                 0x00000000      0x108 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdmmc.o
  .debug_ranges  0x00000000      0x128 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdmmc.o
  .debug_line    0x00000000      0xa02 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdmmc.o
- .debug_str     0x00000000      0x716 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdmmc.o
+ .debug_str     0x00000000      0x721 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdmmc.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdmmc.o
  .debug_frame   0x00000000      0x218 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_sdmmc.o
  .ARM.attributes
@@ -3106,7 +3106,7 @@ Discarded input sections
                 0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_secu.o
  .debug_ranges  0x00000000       0x48 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_secu.o
  .debug_line    0x00000000      0x6c3 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_secu.o
- .debug_str     0x00000000      0xd72 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_secu.o
+ .debug_str     0x00000000      0xd7d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_secu.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_secu.o
  .debug_frame   0x00000000       0x70 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_secu.o
  .ARM.attributes
@@ -3265,7 +3265,7 @@ Discarded input sections
                 0x00000000      0x1d0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_spi.o
  .debug_ranges  0x00000000      0x4c8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_spi.o
  .debug_line    0x00000000     0x2801 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_spi.o
- .debug_str     0x00000000      0xdae build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_spi.o
+ .debug_str     0x00000000      0xdb9 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_spi.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_spi.o
  .debug_frame   0x00000000      0x640 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_spi.o
  .ARM.attributes
@@ -3486,7 +3486,7 @@ Discarded input sections
                 0x00000000      0x350 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
  .debug_ranges  0x00000000      0x3d0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
  .debug_line    0x00000000     0x3d1b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
- .debug_str     0x00000000     0x1c08 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
+ .debug_str     0x00000000     0x1c13 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
  .debug_frame   0x00000000      0x8c0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim.o
  .ARM.attributes
@@ -3591,7 +3591,7 @@ Discarded input sections
                 0x00000000      0x180 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim_ex.o
  .debug_ranges  0x00000000      0x170 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim_ex.o
  .debug_line    0x00000000     0x154e build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim_ex.o
- .debug_str     0x00000000     0x1151 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim_ex.o
+ .debug_str     0x00000000     0x115c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim_ex.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim_ex.o
  .debug_frame   0x00000000      0x428 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tim_ex.o
  .ARM.attributes
@@ -3620,7 +3620,7 @@ Discarded input sections
                 0x00000000       0x50 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tsen.o
  .debug_ranges  0x00000000       0x90 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tsen.o
  .debug_line    0x00000000      0x5cf build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tsen.o
- .debug_str     0x00000000     0x11e6 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tsen.o
+ .debug_str     0x00000000     0x11f1 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tsen.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tsen.o
  .debug_frame   0x00000000       0xac build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_tsen.o
  .ARM.attributes
@@ -3749,7 +3749,7 @@ Discarded input sections
                 0x00000000      0x1e0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
  .debug_ranges  0x00000000      0x260 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
  .debug_line    0x00000000     0x1e31 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
- .debug_str     0x00000000     0x1430 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
+ .debug_str     0x00000000     0x143b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
  .debug_frame   0x00000000      0x51c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_uart.o
  .ARM.attributes
@@ -3768,7 +3768,7 @@ Discarded input sections
                 0x00000000       0x28 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_wdt.o
  .debug_ranges  0x00000000       0x70 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_wdt.o
  .debug_line    0x00000000      0x34d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_wdt.o
- .debug_str     0x00000000      0x32e build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_wdt.o
+ .debug_str     0x00000000      0x339 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_wdt.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_wdt.o
  .debug_frame   0x00000000       0x48 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_wdt.o
  .ARM.attributes
@@ -3812,7 +3812,7 @@ Discarded input sections
                 0x00000000       0x68 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
  .debug_ranges  0x00000000       0x90 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
  .debug_line    0x00000000      0x94d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
- .debug_str     0x00000000     0x1540 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
+ .debug_str     0x00000000     0x154b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
  .debug_frame   0x00000000       0xf8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_sys_cfg.o
  .ARM.attributes
@@ -3905,7 +3905,7 @@ Discarded input sections
                 0x00000000       0x78 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\aes.o
  .debug_ranges  0x00000000       0x80 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\aes.o
  .debug_line    0x00000000      0xe2b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\aes.o
- .debug_str     0x00000000      0x3ba build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\aes.o
+ .debug_str     0x00000000      0x3c5 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\aes.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\aes.o
  .debug_frame   0x00000000      0x180 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\aes.o
  .ARM.attributes
@@ -3948,7 +3948,7 @@ Discarded input sections
                 0x00000000       0x80 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher.o
  .debug_ranges  0x00000000       0x88 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher.o
  .debug_line    0x00000000      0x70f build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher.o
- .debug_str     0x00000000      0xce6 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher.o
+ .debug_str     0x00000000      0xcf1 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher.o
  .debug_frame   0x00000000      0x168 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher.o
  .ARM.attributes
@@ -3995,7 +3995,7 @@ Discarded input sections
                 0x00000000       0x48 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher_wrap.o
  .debug_ranges  0x00000000       0x38 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher_wrap.o
  .debug_line    0x00000000      0x30f build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher_wrap.o
- .debug_str     0x00000000      0xc58 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher_wrap.o
+ .debug_str     0x00000000      0xc63 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher_wrap.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher_wrap.o
  .debug_frame   0x00000000       0x84 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\cipher_wrap.o
  .ARM.attributes
@@ -4066,7 +4066,7 @@ Discarded input sections
                 0x00000000       0x28 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\platform.o
  .debug_ranges  0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\platform.o
  .debug_line    0x00000000       0xf3 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\platform.o
- .debug_str     0x00000000      0x25b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\platform.o
+ .debug_str     0x00000000      0x266 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\platform.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\platform.o
  .debug_frame   0x00000000       0x30 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\platform.o
  .ARM.attributes
@@ -4216,7 +4216,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm2.o
  .debug_line    0x00000000       0x65 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm2.o
- .debug_str     0x00000000      0x201 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm2.o
+ .debug_str     0x00000000      0x20c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm2.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm2.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm2.o
@@ -4228,7 +4228,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm3.o
  .debug_line    0x00000000       0x65 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm3.o
- .debug_str     0x00000000      0x201 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm3.o
+ .debug_str     0x00000000      0x20c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm3.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm3.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sm3.o
@@ -4240,7 +4240,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp.o
  .debug_line    0x00000000       0x65 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp.o
- .debug_str     0x00000000      0x201 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp.o
+ .debug_str     0x00000000      0x20c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp.o
@@ -4252,7 +4252,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp_curves.o
  .debug_line    0x00000000       0x6c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp_curves.o
- .debug_str     0x00000000      0x208 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp_curves.o
+ .debug_str     0x00000000      0x213 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp_curves.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp_curves.o
  .ARM.attributes
                 0x00000000       0x3a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ecp_curves.o
@@ -4300,7 +4300,7 @@ Discarded input sections
                 0x00000000       0x90 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ctr_drbg.o
  .debug_ranges  0x00000000       0x80 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ctr_drbg.o
  .debug_line    0x00000000      0x87a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ctr_drbg.o
- .debug_str     0x00000000      0x8d2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ctr_drbg.o
+ .debug_str     0x00000000      0x8dd build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ctr_drbg.o
  .comment       0x00000000       0x46 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ctr_drbg.o
  .debug_frame   0x00000000      0x1e0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\ctr_drbg.o
  .ARM.attributes
@@ -7159,49 +7159,49 @@ LOAD linker stubs
  .debug_line    0x0001b18e      0x45c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\pk_wrap.o
  .debug_line    0x0001b5ea     0x1306 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\rsa.o
 
-.debug_str      0x00000000     0xce27
- .debug_str     0x00000000     0xce27 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\bf0_ap_hal_msp.o
-                                0x472 (size before relaxing)
- .debug_str     0x0000ce27     0x3274 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board.o
- .debug_str     0x0000ce27     0x3b9d build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board_psram.o
- .debug_str     0x0000ce27     0x1c57 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
- .debug_str     0x0000ce27      0xb00 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\efuse.o
- .debug_str     0x0000ce27     0x1819 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\main.o
- .debug_str     0x0000ce27      0x963 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_emmc_ops.o
- .debug_str     0x0000ce27      0x582 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_nand_drv.o
- .debug_str     0x0000ce27      0x9e3 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_nand_ops.o
- .debug_str     0x0000ce27      0x649 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\secboot.o
- .debug_str     0x0000ce27      0xe9b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
- .debug_str     0x0000ce27     0x2648 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\bf0_pin_const.o
- .debug_str     0x0000ce27      0xe9a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\Templates\system_bf0_ap.o
- .debug_str     0x0000ce27     0x1588 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal.o
- .debug_str     0x0000ce27     0x13b0 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes.o
- .debug_str     0x0000ce27      0xe62 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_cortex.o
- .debug_str     0x0000ce27     0x1725 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dma.o
- .debug_str     0x0000ce27      0x83c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_efuse.o
- .debug_str     0x0000ce27      0x786 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ext_dma.o
- .debug_str     0x0000ce27     0x2ecf build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hlp.o
- .debug_str     0x0000ce27      0xf1c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
- .debug_str     0x0000ce27     0x1685 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi.o
- .debug_str     0x0000ce27     0x2391 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_ex.o
- .debug_str     0x0000ce27     0x118a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_psram.o
- .debug_str     0x0000ce27     0x3035 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pinmux.o
- .debug_str     0x0000ce27     0x1908 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
- .debug_str     0x0000ce27     0x184b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
- .debug_str     0x0000ce27      0xb89 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\flash_table.o
- .debug_str     0x0000ce27      0xbfb build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\nand_table.o
- .debug_str     0x0000ce27      0xc0a build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\sifli_bbm.o
- .debug_str     0x0000ce27      0x95c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\md.o
- .debug_str     0x0000ce27      0x6f5 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\md_wrap.o
- .debug_str     0x0000ce27      0x38b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sha256.o
- .debug_str     0x0000ce27      0x38b build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sha512.o
- .debug_str     0x0000ce27      0x457 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\asn1parse.o
- .debug_str     0x0000ce27      0xa7e build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\bignum.o
- .debug_str     0x0000ce27      0xb5c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\oid.o
- .debug_str     0x0000ce27      0x6e7 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\pk.o
- .debug_str     0x0000ce27      0x955 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\pkparse.o
- .debug_str     0x0000ce27      0x677 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\pk_wrap.o
- .debug_str     0x0000ce27      0x844 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\rsa.o
+.debug_str      0x00000000     0xce32
+ .debug_str     0x00000000     0xce32 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\bf0_ap_hal_msp.o
+                                0x47d (size before relaxing)
+ .debug_str     0x0000ce32     0x327f build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board.o
+ .debug_str     0x0000ce32     0x3ba8 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\board_psram.o
+ .debug_str     0x0000ce32     0x1c62 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\boot_flash.o
+ .debug_str     0x0000ce32      0xb0b build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\efuse.o
+ .debug_str     0x0000ce32     0x1824 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\main.o
+ .debug_str     0x0000ce32      0x96e build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_emmc_ops.o
+ .debug_str     0x0000ce32      0x58d build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_nand_drv.o
+ .debug_str     0x0000ce32      0x9ee build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\sd_nand_ops.o
+ .debug_str     0x0000ce32      0x654 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\secboot.o
+ .debug_str     0x0000ce32      0xea6 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\customer\boards\sf32lb52-lchspi-ulp_base\bsp_init.o
+ .debug_str     0x0000ce32     0x2653 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\bf0_pin_const.o
+ .debug_str     0x0000ce32      0xea5 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\cmsis\sf32lb52x\Templates\system_bf0_ap.o
+ .debug_str     0x0000ce32     0x1593 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal.o
+ .debug_str     0x0000ce32     0x13bb build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_aes.o
+ .debug_str     0x0000ce32      0xe6d build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_cortex.o
+ .debug_str     0x0000ce32     0x1730 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_dma.o
+ .debug_str     0x0000ce32      0x847 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_efuse.o
+ .debug_str     0x0000ce32      0x791 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_ext_dma.o
+ .debug_str     0x0000ce32     0x2eda build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hlp.o
+ .debug_str     0x0000ce32      0xf27 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_hpaon.o
+ .debug_str     0x0000ce32     0x1690 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi.o
+ .debug_str     0x0000ce32     0x239c build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_ex.o
+ .debug_str     0x0000ce32     0x1195 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_mpi_psram.o
+ .debug_str     0x0000ce32     0x3040 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pinmux.o
+ .debug_str     0x0000ce32     0x1913 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_pmu.o
+ .debug_str     0x0000ce32     0x1856 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\bf0_hal_rcc.o
+ .debug_str     0x0000ce32      0xb94 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\flash_table.o
+ .debug_str     0x0000ce32      0xc06 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\nand_table.o
+ .debug_str     0x0000ce32      0xc15 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\drivers\hal\sifli_bbm.o
+ .debug_str     0x0000ce32      0x967 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\md.o
+ .debug_str     0x0000ce32      0x700 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\md_wrap.o
+ .debug_str     0x0000ce32      0x396 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sha256.o
+ .debug_str     0x0000ce32      0x396 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\sha512.o
+ .debug_str     0x0000ce32      0x462 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\asn1parse.o
+ .debug_str     0x0000ce32      0xa89 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\bignum.o
+ .debug_str     0x0000ce32      0xb67 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\oid.o
+ .debug_str     0x0000ce32      0x6f2 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\pk.o
+ .debug_str     0x0000ce32      0x960 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\pkparse.o
+ .debug_str     0x0000ce32      0x682 build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\pk_wrap.o
+ .debug_str     0x0000ce32      0x84f build_sf32lb52-lchspi-ulp_hcpu\bootloader\sifli_sdk\external\mbedtls\library\rsa.o
 
 .debug_frame    0x00000000     0x5008
  .debug_frame   0x00000000       0x74 build_sf32lb52-lchspi-ulp_hcpu\bootloader\board\bf0_ap_hal_msp.o

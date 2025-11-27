@@ -1,7 +1,6 @@
 #include "gui.h"
 
-extern int flag_key1;
-extern int flag_key2;
+extern int flag_key2_short;
 
 rt_thread_t gui_display_thread = RT_NULL;
 
@@ -28,7 +27,7 @@ static void gui_thread_entery(void *arg){
         for(int j = 0; j < 79; j++){
             bar_data[j] = rssi_res[j];
         }
-        if(flag_key2){
+        if(flag_key2_short){
             lv_label_set_text(guider_ui.label_switch, "ON");
         }else{
             lv_label_set_text(guider_ui.label_switch, "OFF");

@@ -1,6 +1,6 @@
-# Portable Radiation Detector
+# Portable Bluetooth Signal Strength Detector
 
-The Portable Radiation Detector is an embedded device developed based on SiFli-SDK. It acquires signal strength for each frequency point in the 2402MHz~2480MHz band through Bluetooth scanning and displays it in real-time via bar charts on the screen.
+The Portable Bluetooth Signal Strength Detector is an embedded device developed based on SiFli-SDK. It acquires signal strength for each frequency point in the 2402MHz~2480MHz band through Bluetooth scanning and displays it in real-time via bar charts on the screen.
 
 ## Project Overview
 
@@ -9,9 +9,9 @@ This project uses the SiFli-SDK framework to implement Bluetooth signal strength
 ## Main Features
 
 - **Bluetooth Frequency Point Scanning**: Covers 2402MHz~2480MHz band, scanning 79 frequency points
-- **Real-time Signal Strength Detection**: Updates RSSI values once per second
 - **Data Storage and Playback**: Supports storing up to 10 sets of historical data, switchable via buttons
-- **Bar Chart Visualization**: Implements dynamic bar chart display using LVGL library
+- **Data Smoothing Processing**: Real-time display data is the average of the previous 10 scan data, effectively reducing instantaneous noise
+- **Bar Chart Visualization**: Implements dynamic bar chart display using LVGL library, supporting gradient color effects
 - **Button Control**: Supports start/stop scanning and historical data browsing functions
 
 ## Technical Specifications
@@ -20,33 +20,43 @@ This project uses the SiFli-SDK framework to implement Bluetooth signal strength
 - **Bluetooth Band**: 2402MHz~2480MHz
 - **Number of Frequency Points**: 79 (channels 0-78)
 - **RSSI Range**: -127dBm ~ -20dBm
-- **Data Update Frequency**: 1Hz
+- **Data Update Frequency**: Updates every 500ms
 - **Historical Data Storage**: Up to 10 data sets
+- **Display Range**: Y-axis range -110dBm ~ -20dBm
 
 ## Project Structure
 
 ```
-Radiationdetector/
+RadiationMonitor/
 ├── README.md              # Project documentation
 ├── README_EN.md           # English version documentation
-├── project/               # Project configuration files
+├── assets/                # Resource files
+│   └── img.jpg           # Project effect image
+├── project/              # Project configuration files
 │   ├── Kconfig           # Kernel configuration
 │   ├── SConscript        # SCons build script
 │   ├── SConstruct        # SCons build configuration
+│   ├── rtconfig.py       # RT-Thread configuration
+│   ├── proj.conf         # Project configuration
 │   └── build_sf32lb52-lchspi-ulp_hcpu/  # Build output directory
-└── src/                   # Source code directory
+└── src/                  # Source code directory
     ├── main.c            # Main program entry
+    ├── Kconfig           # Source code configuration
+    ├── SConscript        # Source code build script
     ├── BT/               # Bluetooth related code
     │   ├── bt_repeat.c   # Bluetooth scanning core logic
     │   ├── bt_repeat.h   # Bluetooth scanning header file
-    │   ├── bt_tst_drv.c  # Bluetooth test driver
-    │   └── cpu_tst_drv.c # CPU test driver
-    ├── generated/        # GUI-Guider generated code
-    │   ├── gui_guider.c  # GUI configuration and event handling
-    │   ├── setup_scr_screen.c  # Screen setup and chart configuration
-    │   ├── events_init.c # Event initialization
-    │   └── widgets_init.c # Widget initialization
-    └── lv_demos/         # LVGL demo code
+    │   └── SConscript    # Bluetooth module build script
+    └── generated/        # GUI-Guider generated code
+        ├── gui.c         # GUI main program
+        ├── gui.h         # GUI header file
+        ├── gui_guider.c  # GUI configuration and event handling
+        ├── gui_guider.h  # GUI configuration header file
+        ├── setup_scr_screen.c  # Screen setup and chart configuration
+        ├── events_init.c # Event initialization
+        ├── widgets_init.c # Widget initialization
+        ├── widgets_init.h # Widget initialization header file
+        └── SConscript    # GUI module build script
 ```
 
 ## Core Module Description
@@ -54,33 +64,43 @@ Radiationdetector/
 ### 1. Bluetooth Scanning Module (`src/BT/bt_repeat.c`)
 
 - **Functionality**: Implements Bluetooth frequency point scanning and RSSI value acquisition
-  - Uses DMA interrupt to handle Bluetooth data reception
   - Supports cyclic scanning of 79 frequency points
-  - RSSI value calibration and data processing
-  - Data queue management (up to 10 sets of historical data)
+  - Data queue management (10 sets of historical data)
+  - **Data Smoothing**: Real-time display data is the average of the previous 10 scan data
+  - **Data Storage**: Supports storing 10 sets of historical data, switchable via buttons
 
 ### 2. User Interface Module (`src/generated/`)
 
 - **Functionality**: LVGL-based graphical user interface
 - **Main Components**:
-  - Bar chart display: Real-time display of RSSI values for 79 frequency points
-  - Button event handling: Supports KEY1 and KEY2 button control
+  - Bar chart display: Real-time display of RSSI values for 79 frequency points, supporting gradient color effects
+  - Dynamic axis labels: X-axis displays key frequency points (2402MHz, 2441MHz, 2480MHz)
+  - Status indication: Displays ON/OFF status and unit labels
+  - Button event handling: Supports KEY2 button control
 
 ### 3. Main Program Module (`src/main.c`)
 
 - **Functionality**: System initialization and task scheduling
 - **Main Tasks**:
-  - Button initialization (KEY1, KEY2)
+  - Button initialization (KEY2)
   - GUI thread startup
   - Bluetooth scanning thread startup
   - System main loop
+  - Button state machine processing (supports short press and long press)
 
 ## Button Function Description
 
-- **KEY1**: Historical data browsing (forward page turning)
-- **KEY2**: Start/stop scanning toggle
+- **KEY2**: Multi-function button
+  - **Short Press**: Start/stop scanning toggle
+  - **Long Press**: Historical data browsing (forward page turning)
 
-## Compilation and Running
+## Interface Features
+
+- **Bar Chart**: Real-time RSSI value display for 79 frequency points
+- **Axis Labels**: X-axis displays key frequency points (2402MHz, 2441MHz, 2480MHz)
+- **Status Display**: Top displays ON/OFF status indication
+
+## Running Effect
 ![image](assets/img.jpg)
 
 ### Environment Requirements
@@ -88,6 +108,13 @@ Radiationdetector/
 - SiFli-SDK development environment
 - RT-Thread operating system
 - GUI-Guider tool (for interface design)
+- SF32LB52x chip development board
+
+## Build Instructions
+
+1. Configure project: Use `project/Kconfig` for kernel configuration
+2. Build project: Use SCons build system
+3. Flash program: Use provided download scripts
 
 ## Reference Documentation
 
@@ -97,6 +124,4 @@ Radiationdetector/
 
 ## Technical Support
 
-If you have any technical questions, please submit an [issue](https://github.com/SiFliSparks/RadiationMonitor/issues) 
-            
-      
+If you have any technical questions, please submit an [issue](https://github.com/SiFliSparks/RadiationMonitor/issues)

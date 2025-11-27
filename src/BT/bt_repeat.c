@@ -5,6 +5,8 @@
 #include "register.h"
 #include "ble_rf_cal.h"
 #include <rthw.h>
+#include <math.h>
+#include <stdlib.h>
 
 
 //add extern "C" {
@@ -31,31 +33,19 @@ extern void dm_irq_clear(uint32_t dm_irq);
 extern void bt_set_currentrxdescptr(uint16_t value);
 extern uint32_t bt_get_clkn(void);
 
-// record rssi value for each channel
-#define TIME_WINDOW_SIZE 60  
-#define CHANNEL_COUNT 79
+extern int flag_key2_short;
 
+#define CHANNEL_COUNT 79
 #define MAX_DATA_QUEUE_SIZE 10  
 
-extern int flag_key1;
-extern int flag_key2;
-extern int flag_screen;
 
-uint8_t error;
 uint8_t irq_result = BT_ERROR;
 uint8_t irq_cnt=0;
-int rate_res[79] = {0};
 //storage rssi value
 int rssi_array1[79];
 int rssi_array2[79];
 int rssi_array[79];
-int record_rssi[79];
 int rssi_res[79];
-int record_cnt = 0;
-
-//record rssi value
-static int rssi_history[TIME_WINDOW_SIZE][CHANNEL_COUNT];
-static int history_index = 0;  // current write index
 
 // store rssi value for each channel
 static int rssi_queue[CHANNEL_COUNT][MAX_DATA_QUEUE_SIZE];
@@ -63,27 +53,15 @@ int queue_size = 0;                 // current queue size
 static int queue_front = 0;        // current queue front index
 int queue_rear = 0;         // current queue rear index
 int display_index = -1;             // current display index
-static int history_count = 0;   // current history count
-static rt_tick_t last_collect_time = 0;  // last collect time
 
 //rssi thread
 rt_thread_t bt_rssi_thread = RT_NULL;
-//rssi value seamphore
-rt_sem_t rssi_read = RT_NULL;
-//get rssi timer
-rt_timer_t rssi_timer = RT_NULL;
 
+void rssi_deal(void);
+void bt_repeat_rx_rssi_ch0_79_auto(void);
+double db_to_liner_ratio(double dB_value);
+double liner_ratio_to_db(double liner_value);
 
-/**
- * @brief  Timer callback function, used to trigger RSSI reading once per second
- * @param  parameter: NULL
- * @retval None
- */
-static void rssi_timer_callback(void *parameter)
-{
-    // release the semaphore to trigger the RSSI reading thread execution
-    rt_sem_release(rssi_read);
-}
 /**
  * @brief  DMA interrupt handler function, used to handle RSSI reading interrupt
  * @param  None
@@ -94,8 +72,6 @@ void DM_MAC_Handler(void)
     irq_result = bt_irq_handler();
 	  irq_cnt = irq_cnt + 1;
 };
-//声明数据处理
-void rssi_deal(void);
 /**
  * @brief  Get the RSSI value for each channel
  * @param  None
@@ -422,10 +398,16 @@ void bt_repeat_rx_rssi_ch0_79_auto(void)
           rssi_array[i] = rssi_array1[i];
         else
           rssi_array[i] = rssi_array2[i];
-
-        rt_kprintf("channel = %d ,rssi =  %d\r\n",i+1,rssi_array[i]);
       }
-      rt_kprintf("irq_cnt %d\r\n",irq_cnt);
+
+      if(rssi_array[46] < -90){
+        rssi_array[46] = -104;
+      }
+
+      //printf rssi value
+        for(int i = 0;i<channel_index;i++){
+            rt_kprintf("channel %d : rssi = %d dBm\r\n",i+1,rssi_array[i]);
+        }
 
 }
 
@@ -477,11 +459,26 @@ static void enqueue_rssi_data(void) {
  */
 void rssi_deal(void)
 { 
-    if(flag_key2 == 1){//update data
+    static double last_dbm[CHANNEL_COUNT][10];
+
+    static int last_dbm_count = 0;
+    if(flag_key2_short == 1){//update data
             //get data
             for(int i = 0; i < 79; i++) {
-                rssi_res[i] = rssi_array[i];
+                // rssi_res[i] = rssi_array[i];
+                //save last  dbm value
+                last_dbm[i][last_dbm_count % 10] = db_to_liner_ratio((double)rssi_array[i]);
+                //calculate average dbm value
+                double sum = 0.0;
+                for(int j = 0; j < 10; j++) {
+                    sum += last_dbm[i][j];
+                }
+                double avg_liner = sum / 10.0;
+                rssi_res[i] = (int)liner_ratio_to_db(avg_liner);
+                //printf dbm and mW value
+                // rt_kprintf("channel = %d ,dbm =  %d,mW = %.15f\r\n",i+1,rssi_res[i],avg_liner);    
             }
+            last_dbm_count++;
             enqueue_rssi_data();
         }
         else{//stop update data
@@ -498,7 +495,13 @@ void rssi_deal(void)
             }
         }
 }
+double db_to_liner_ratio(double dB_value){
+    return pow(10.0, dB_value / 10.0);
+}
 
+double liner_ratio_to_db(double liner_value){
+    return 10.0 * log10(liner_value);
+}
 
 /**
  * @brief  RSSI thread entry function, used to handle RSSI reading and processing
@@ -515,7 +518,7 @@ static void rssi_rthread_entry(void *parameter)
     while (1)
     {   
         int_save = rt_hw_interrupt_disable();
-        if(flag_key2 == 1){
+        if(flag_key2_short == 1){
             bt_repeat_rx_rssi_ch0_79_auto();
         }
         rssi_deal();

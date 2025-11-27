@@ -477,9 +477,9 @@ LOAD linker stubs
 .debug_line     0x00000000      0x152
  .debug_line    0x00000000      0x152 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
 
-.debug_str      0x00000000      0x25e
- .debug_str     0x00000000      0x25e build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
-                                0x2c0 (size before relaxing)
+.debug_str      0x00000000      0x269
+ .debug_str     0x00000000      0x269 build_sf32lb52-lchspi-ulp_hcpu\\ftab\\board\\ftab.o
+                                0x2cb (size before relaxing)
 
 Cross Reference Table
 

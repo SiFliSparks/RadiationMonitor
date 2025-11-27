@@ -14,8 +14,7 @@
 #include "widgets_init.h"
 
 
-extern int flag_key1;
-extern int flag_key2;
+extern int flag_key2_short;
 
 
 /* Forward declaration of event callback functions */
@@ -65,10 +64,10 @@ void setup_scr_screen(lv_ui *ui)
 
   
     lv_obj_set_pos(ui->screen_chart_1, 25, 80);
-    lv_obj_set_size(ui->screen_chart_1, 360, 300); 
+    lv_obj_set_size(ui->screen_chart_1, 340, 300); 
     
 
-    lv_obj_set_style_min_width(ui->screen_chart_1, 360, LV_PART_MAIN); 
+    lv_obj_set_style_min_width(ui->screen_chart_1, 340, LV_PART_MAIN); 
     
     lv_obj_set_scrollbar_mode(ui->screen_chart_1, LV_SCROLLBAR_MODE_OFF);
 
@@ -97,22 +96,22 @@ void setup_scr_screen(lv_ui *ui)
 
     //channel label
     ui->label_ch = lv_label_create(ui->screen);
-    lv_label_set_text(ui->label_ch, "Ch");
+    lv_label_set_text(ui->label_ch, "MHz");
     lv_obj_set_style_text_color(ui->label_ch, lv_color_hex(0xFFFFFF), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->label_ch, &lv_font_montserratMedium_16, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->label_ch, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_pos(ui->label_ch, 15, 400);
+    lv_obj_set_pos(ui->label_ch, 340, 400);
 
     //percent label
     ui->label_rssi = lv_label_create(ui->screen);
-    lv_label_set_text(ui->label_rssi, "RSSI");
+    lv_label_set_text(ui->label_rssi, "dbm");
     lv_obj_set_style_text_color(ui->label_rssi, lv_color_hex(0xFFFFFF), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->label_rssi, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_pos(ui->label_rssi, 10, 50);
     
     //switch button label
     ui->label_switch = lv_label_create(ui->screen);
-    if(flag_key2){
+    if(flag_key2_short){
         lv_label_set_text(ui->label_switch, "ON");
         
     }else{
@@ -218,23 +217,23 @@ static void chart_axis_label_draw_event_cb(lv_event_t * e)
                 int tick_index = dsc->value;  // Current tick index
                 
                 if(tick_index == 0){
-                    sprintf(label_text, "%d", 1);
+                    sprintf(label_text, "%d", 2402);
                     dsc->text = label_text;
-                    dsc->line_dsc->color = lv_color_hex(0xffff00);
+                    dsc->line_dsc->color = lv_color_hex(0xffffff);
                     dsc->line_dsc->width = 2;
                 }else if(tick_index == 78){
-                    sprintf(label_text, "%d", 79);
+                    sprintf(label_text, "%d", 2480);
                     dsc->text = label_text;
-                    dsc->line_dsc->color = lv_color_hex(0xffff00);
+                    dsc->line_dsc->color = lv_color_hex(0xffffff);
                     dsc->line_dsc->width = 2;                    
-                }else if(tick_index%10 == 9){
-                    sprintf(label_text, "%d", tick_index);
+                }else if(tick_index == 39){
+                    sprintf(label_text, "%d", 2441);
                     dsc->text = label_text;
-                    dsc->line_dsc->color = lv_color_hex(0xffff00);
+                    dsc->line_dsc->color = lv_color_hex(0xffffff);
                     dsc->line_dsc->width = 2;                    
                 }else{
                     dsc->text = NULL;
-                    dsc->line_dsc->color = lv_color_hex(0xFFFFFF);
+                    dsc->line_dsc->color = lv_color_hex(0x000000);
                     dsc->line_dsc->width = 1;  
                 }
                 /* Set label style - add null pointer check */

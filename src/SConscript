@@ -11,8 +11,7 @@ inc+= [cwd]
 
 #Return('src')
 
-# add lvgl demos
-src.extend(SConscript(os.path.join(cwd, 'lv_demos/SConscript'), variant_dir="lv_demos", duplicate=0))
+
 # add BT
 src.extend(SConscript(os.path.join(cwd, 'BT/SConscript'), variant_dir="BT", duplicate=0))
 # add generated
