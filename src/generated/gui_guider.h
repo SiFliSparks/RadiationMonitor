@@ -25,6 +25,7 @@ typedef struct
 	lv_obj_t *label_ch;
 	lv_obj_t *label_rssi;
 	lv_obj_t *label_switch;
+	lv_obj_t *bar_rects[79];  // Array of 79 rectangles to replace chart series
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -49,6 +50,7 @@ extern lv_ui guider_ui;
 
 
 void setup_scr_screen(lv_ui *ui);
+void update_bar_rects(lv_ui *ui, int * values);
 
 LV_FONT_DECLARE(lv_font_montserratMedium_16)
 LV_FONT_DECLARE(lv_font_montserratMedium_12)

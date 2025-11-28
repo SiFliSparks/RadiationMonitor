@@ -10,7 +10,7 @@ This project uses the SiFli-SDK framework to implement Bluetooth signal strength
 
 - **Bluetooth Frequency Point Scanning**: Covers 2402MHz~2480MHz band, scanning 79 frequency points
 - **Data Storage and Playback**: Supports storing up to 10 sets of historical data, switchable via buttons
-- **Data Smoothing Processing**: Real-time display data is the average of the previous 10 scan data, effectively reducing instantaneous noise
+- **Data Smoothing Processing**: Real-time display data is the average of the previous 30 scan data, effectively reducing instantaneous noise
 - **Bar Chart Visualization**: Implements dynamic bar chart display using LVGL library, supporting gradient color effects
 - **Button Control**: Supports start/stop scanning and historical data browsing functions
 
@@ -19,8 +19,8 @@ This project uses the SiFli-SDK framework to implement Bluetooth signal strength
 - **Hardware Platform**: SF32LB52x chip
 - **Bluetooth Band**: 2402MHz~2480MHz
 - **Number of Frequency Points**: 79 (channels 0-78)
-- **RSSI Range**: -127dBm ~ -20dBm
-- **Data Update Frequency**: Updates every 500ms
+- **RSSI Range**: -110dBm ~ -20dBm
+- **Data Update Frequency**: Updates every 30ms
 - **Historical Data Storage**: Up to 10 data sets
 - **Display Range**: Y-axis range -110dBm ~ -20dBm
 

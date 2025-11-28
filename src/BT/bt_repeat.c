@@ -523,7 +523,7 @@ static void rssi_rthread_entry(void *parameter)
         }
         rssi_deal();
         rt_hw_interrupt_enable(int_save);
-        rt_thread_mdelay(500);
+        rt_thread_mdelay(30);
     }
 }
 
